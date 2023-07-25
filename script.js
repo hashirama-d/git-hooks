@@ -5,7 +5,8 @@ const b = 12;
 
 let arr = [a, b];
 
-console.log(
-  arr.reduce((a, b) => a + b),
-  0,
-);
+for (let i = 0; i < 10; i++) {
+  arr.push(i);
+}
+
+console.log(arr.reduce((a, b) => a + b, 0));
