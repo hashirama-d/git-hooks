@@ -1,4 +1,11 @@
+// set good condition to console logging array
+
 const a = 8;
 const b = 12;
-// a += Array(b)
-console.log(a + b);
+
+let arr = [a, b];
+
+console.log(
+  arr.reduce((a, b) => a + b),
+  0,
+);
