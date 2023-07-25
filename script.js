@@ -13,3 +13,5 @@ arr.push("aboba");
 
 const balance = (transaction) => transaction.reduce((a, b) => a + b, 0);
 console.log(balance(arr));
+
+console.log(arr);
