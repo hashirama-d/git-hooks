@@ -11,4 +11,5 @@ for (let i = 0; i < 10; i++) {
 
 arr.push("aboba");
 
-console.log(arr.reduce((a, b) => a + b, 0));
+const balance = (transaction) => transaction.reduce((a, b) => a + b, 0);
+console.log(balance(arr));
